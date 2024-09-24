@@ -8,10 +8,23 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <img src="{{ assets('resources/img/dc-logo.png')}}" alt="DC Comics">
+                    <div class="content">
+                        <img src="/img/dc-logo.png" alt="DC Comics">
+                        <ul>
+                            <li><a href=""></a>CHARACTERS</li>
+                            <li><a href=""></a>MOVIES</li>
+                            <li><a href=""></a>TV</li>
+                            <li><a href=""></a>GAMES</li>
+                            <li><a href=""></a>COLLECTIBLES</li>
+                            <li><a href=""></a>VIDEOS</li>
+                            <li><a href=""></a>FANS</li>
+                            <li><a href=""></a>NEWS</li>
+                            <li><a href=""></a>SHOP</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
