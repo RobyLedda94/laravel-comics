@@ -7,11 +7,9 @@
     <div class="bg-films">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="content-films mt-5">
-                        prova
-                    </div>
-                </div>
+                @foreach($movies as $movie)
+                    {{var_dump($movie)}}
+                @endforeach
             </div>
         </div>
     </div>
