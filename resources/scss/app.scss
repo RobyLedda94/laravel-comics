@@ -41,6 +41,8 @@
 
 .bg-blue {
     background-color: rgb(72, 130, 255);
+    position: relative;
+    z-index: 1;
 
     .links.img-fluid {
         width: 50px;
@@ -48,5 +50,38 @@
 
     .footer.nav-link {
         color: white;
+    }
+}
+
+
+
+
+.immagine-sfondo {
+    background-image: url('../img/footer-bg.jpg');
+    background-size: cover;
+}
+
+.content-main-bottom {
+    height: 357px;
+
+    ul {
+        li {
+            font-size: 12px;
+            color: rgb(131, 131, 131);
+
+            p {
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.right {
+    .logo-grande {
+        width: 460px;
+        position: relative;
+        top: -46px;
+        transform: rotate(-5deg);
     }
 }
