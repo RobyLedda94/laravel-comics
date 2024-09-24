@@ -110,7 +110,13 @@ return [
         "sale_date" => "2019-04-10",
         "type" => "graphic novel",
     ]
-]
+    ],
+
+    'footer_shop' => [
+        [
+
+        ]
+    ]
 ];
 
 
