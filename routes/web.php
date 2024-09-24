@@ -20,5 +20,9 @@ Route::get('/', function () {
 
 
 Route::get('/films', function (){
+    $movies = config('db.movie');
+
+    dd($movies);
+    
     return view('films');
 })->name('films');
