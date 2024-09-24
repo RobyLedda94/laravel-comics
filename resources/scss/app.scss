@@ -1,1 +1,15 @@
 @import '~bootstrap/scss/bootstrap';
+
+.nav-link.fw-bold {
+    padding-bottom: 15px;
+}
+
+
+.nav-link.fw-bold.active {
+    border-bottom: 2px solid blue;
+}
+
+
+.nav-link.fw-bold:hover {
+    border-bottom: 2px solid blue;
+}
