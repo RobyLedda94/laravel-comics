@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('home');
 })->name('homepage');
 
+
+
 Route::get('/films', function (){
     return view('films');
 })->name('films');
