@@ -16,7 +16,7 @@
                         <ul class="list-unstyled d-flex ">
                             <li class="px-3"><a class="nav-link fw-bold" href="{{route('homepage')}}">CHARACTERS</a></li>
                             <li class="px-3"><a class="nav-link fw-bold {{Route::currentRouteName() === 'homepage' ? 'active' : ''}}" href="">COMICS</a></li>
-                            <li class="px-3"><a class="nav-link fw-bold" href="">MOVIES</a></li>
+                            <li class="px-3"><a class="nav-link fw-bold {{Route::currentRouteName() === 'films' ? 'active' : ''}}" href="{{route('films')}}">MOVIES</a></li>
                             <li class="px-3"><a class="nav-link fw-bold" href="">TV</a></li>
                             <li class="px-3"><a class="nav-link fw-bold" href="">GAMES</a></li>
                             <li class="px-3"><a class="nav-link fw-bold" href="">COLLECTIBLES</a></li>
