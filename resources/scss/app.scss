@@ -23,5 +23,17 @@
 
 
 .bg-films {
-    // background-color: rgb(58, 58, 58);
+    background-color: rgb(58, 58, 58);
+}
+
+
+.carta {
+    img {
+        min-height: 300px;
+    }
+
+    .testo {
+        margin-top: 10px;
+        color: white;
+    }
 }
