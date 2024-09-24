@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <div class="jumbotron">
-        prova jumbo
-    </div>
+<div class="jumbotron">
+</div>
 @endsection
